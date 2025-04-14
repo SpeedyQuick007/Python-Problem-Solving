@@ -110,7 +110,8 @@ def get_time_zone(th, tm, sign):
         return "Unknown Time Zone"
     return loc
 
- 
+ #-----main-----
+
 gmth, gmtm = get_gmt_time()         # Get current GMT time
 h, m = get_time()                   # Get user input time
 th, tm = calculate_offset(h,m,gmth,gmtm)            # Calculate offset from GMT
