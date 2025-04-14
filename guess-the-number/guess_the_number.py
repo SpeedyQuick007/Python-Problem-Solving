@@ -22,5 +22,7 @@ def check_num(num):             # Checks how close or correct is the user
             else:                       # guess is high
                 print("Too high")
 
+#-----main-----
+
 num = generate_randnum()
 check_num(num)
